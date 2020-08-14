@@ -2,10 +2,10 @@
 version: 0.0
 os: linux
 files:
-   - source: /
-     destination: /tmp
+   - source: index.html
+     destination: /var/www/html
 permissions:
-   - object: /tmp
+   - object: /var/www/html
      pattern: "**"
      owner: apache
      group: apache
